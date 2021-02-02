@@ -1,0 +1,21 @@
+{
+  "name": "push_server",
+  "version": "1.0.0",
+  "description": "push notification server for hospital app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "expo",
+    "expo-push-notification"
+  ],
+  "author": "akintola olalekan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1"
+  }
+}
